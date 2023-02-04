@@ -27,5 +27,11 @@ public class UserServiceImpl implements UserService {
 		
 		return returnMap;
 	}
+
+	/* 회원로그인 */
+	@Override
+	public String selectUserLogin(Map<String, Object> params) throws ApiException {
+		return "Y";
+	}
 	
 }
